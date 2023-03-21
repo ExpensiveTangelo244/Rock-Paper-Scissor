@@ -9,8 +9,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/", function(req, res) {
     res.render("home");
-})
+});
 
-app.listen("4000", () => {
+app.listen("4000" || process.env.PORT , () => {
   console.log("Server Started.");
 });
