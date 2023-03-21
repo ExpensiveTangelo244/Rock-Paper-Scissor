@@ -1,0 +1,30 @@
+<%- include("partials/header") -%>
+<section id="body-container">
+  <div class="score-container">
+    <p>Computer : <span id="computerScore" class="bold-score">0</span></p>
+    <p>You : <span id="playerScore" class="bold-score">0</span></p>
+  </div>
+  <div class="grid-container">
+    <div class="grid-item">
+      <div id="rock" class="icon-container">
+        <i class="fa-regular fa-2xl fa-hand-back-fist"></i>
+      </div>
+    </div>
+    <div class="grid-item">
+      <div id="paper" class="icon-container">
+        <i class="fa-regular fa-2xl fa-hand"></i>
+      </div>
+    </div>
+    <div class="grid-item">
+      <div id="scissor" class="icon-container">
+        <i class="fa-regular fa-2xl fa-hand-scissors"></i>
+      </div>
+    </div>
+  </div>
+  <div id="result-container">
+    <p class="result-para">You chose <span id="playerChoice" class="selectedChoice">PAPER</span></p>
+    <p class="result-para">Computer chose <span id="computerChoice" class="selectedChoice">ROCK</span></p>
+    <p id="resultTitle" class="win">YOU WIN</p>
+  </div>
+</section>
+<%- include("partials/footer") -%>

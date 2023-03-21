@@ -1,0 +1,99 @@
+/* element selectors */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #ffcf1b, #ff8b1b);
+}
+
+p {
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.fa-2xl {
+  font-size: 3rem;
+}
+
+/* id selectors */
+
+#body-container {
+  width: 45vw;
+  padding: 30px 35px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  box-shadow: 0px 05px 10px rgba(0, 0, 0, 0.5);
+  background-color: white;
+}
+
+#resultTitle {
+  display: inline-block;
+  font-weight: bold;
+  padding: 10px 50px;
+}
+
+#result-container {
+  display: none;
+  text-align: center;
+}
+
+/* class selectors */
+
+.score-container {
+  text-align: end;
+}
+
+.bold-score {
+  font-weight: bold;
+}
+
+.grid-container {
+  margin: 50px 0;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 25% 25% 25%;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ffcf1b;
+  cursor: pointer;
+}
+
+.result-para {
+  margin: 16px 0;
+}
+
+.selectedChoice {
+  font-weight: bold;
+}
+
+.win {
+  color: rgb(104, 159, 56);
+  background-color: rgb(206, 253, 206);
+}
+
+.lose {
+  color: rgb(211, 47, 47);
+  background-color: rgb(255, 221, 224);
+}
+
+.draw {
+  color: rgb(128, 128, 128);
+  background-color: rgb(229, 229, 229);
+}
